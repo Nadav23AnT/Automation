@@ -8,3 +8,4 @@ source = driver.find_element_by_xpath('//*[@id="box3"]')
 destination = driver.find_element_by_xpath('//*[@id="box103"]')
 actions = ActionChains(driver)
 actions.drag_and_drop(source, destination).perform()
+
