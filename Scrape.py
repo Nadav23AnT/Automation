@@ -13,3 +13,4 @@ for i in range(0,len(quotes)):
     for quoteTag in quoteTags:
         print(quoteTag.text)
         
+        
