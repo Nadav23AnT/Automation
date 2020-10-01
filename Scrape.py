@@ -12,3 +12,4 @@ for i in range(0,len(quotes)):
     quoteTags = tags[i].find_all('a',class_='tag')
     for quoteTag in quoteTags:
         print(quoteTag.text)
+        
