@@ -12,3 +12,4 @@ for line in f:
         failFile.write(line)
 passFile.close()
 failFile.close()
+
